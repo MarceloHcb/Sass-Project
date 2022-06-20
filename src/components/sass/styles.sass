@@ -1,0 +1,105 @@
+@use "variables"
+@use "mixins"
+*
+    font-family: "Josefin Sans"
+    padding: 0
+    margin: 0
+    box-sizing: border-box
+
+    body
+        background-color: variables.$bg-color
+        color: variables.$text-color
+        a
+            color: variables.$text-color
+            text-decoration: none
+            transition: .4s
+        ul
+            list-style: none
+.header
+    @include mixins.container
+    @include mixins.mobile
+        padding: 1.1rem
+    &-brands
+        color: variables.$primary-color
+        font-size: 3rem
+    &-navbar
+        ul
+            height: 100%
+            @include mixins.flex-center
+            @include mixins.mobile
+             display: none
+
+            li
+                margin: 0 1rem
+                text-transform: uppercase
+                font-size: .8rem
+                .active
+                    color: variables.$secondary-color
+            a
+                &:hover
+                    color: variables.$secondary-color
+    &-social-media
+        ul
+            @include mixins.flex-center
+            height: 100%
+            @include mixins.mobile
+             display: none
+            li
+                margin: 0 1rem
+                a
+                    &:hover
+                        color: variables.$primary-color
+
+.gallery
+    @include mixins.flex-center
+    @include mixins.container
+    flex-wrap: wrap
+    justify-content: space-between
+    padding: 0
+    @include mixins.mobile
+     flex-direction: column
+    &-card
+        width: 31%
+        height: 400px
+        margin-bottom: 4%
+        @include mixins.flex-center
+        flex-direction: column
+        color: variables.$primary-color
+        @include mixins.mobile
+            width: 90%
+            margin-bottom: 6%
+    &-btn
+        padding: .6rem 2rem
+        border: 2px solid variables.$primary-color
+        text-transform: uppercase
+        font-weight: 400
+        color: white
+        letter-spacing: 1px
+        &:hover
+            background: variables.$primary-color
+            color: variables.$bg-color
+#card-1
+    @include mixins.bg-img("img.freepik.com/fotos-gratis/retrato-de-um-cordeiro-adoravel-olhando-para-a-frente-em-um-estabulo-de-gado_342744-432.jpg?t=st=1655689588~exp=1655690188~hmac=81a8d8a00731ef45e42f254944c0abe115e4ccf8207cf0d1d841f9fe68b42e6e&w=1380")
+#card-2
+    @include mixins.bg-img("img.freepik.com/fotos-gratis/silhuetas-do-local-de-construcao_1127-3253.jpg?t=st=1655689697~exp=1655690297~hmac=57659f8cf5d32f113b4a76b7659a7634eea2bebdcf9b19fd25b836d5cad52bfe&w=1380")
+#card-3
+    @include mixins.bg-img("img.freepik.com/fotos-gratis/rua-de-hong-kong-com-trafego-movimentado-e-escritorio-de-arranha-ceus-ao-entardecer_649448-2826.jpg?t=st=1655689786~exp=1655690386~hmac=36c2bce6172ddc4329c8fc1951a934f198c096faedd769d39bf33acb66283b8b&w=1380")
+#card-4
+    @include mixins.bg-img ("img.freepik.com/fotos-gratis/a-sala-de-estar-com-parede-branca-tem-sofa-e-decoracao-renderizacao-em-3d_41470-3282.jpg?t=st=1655689833~exp=1655690433~hmac=1c776c4a0f4e368ab3a611bf90f2c18cad5df220ea8c4a3c1147c633210d69d6&w=1480")
+#card-5
+    @include mixins.bg-img("img.freepik.com/fotos-gratis/ferramentas-esportivas_53876-138077.jpg?t=st=1655689877~exp=1655690477~hmac=f08c018802ff027a3ddcb3ae128be1bd745a73d4add6c809512f08379d13f0fb&w=1380")
+#card-6
+    @include mixins.bg-img("img.freepik.com/fotos-gratis/foto-de-foco-seletivo-de-uma-folha-de-carvalho-iluminada-pela-luz-dourada-de-um-por-do-sol-de-outono-em-uma-floresta_181624-52300.jpg?t=st=1655689932~exp=1655690532~hmac=26a19859a1e68b76dff97288c9fa8033d337f3d23c2847ff6caa3782b79a23fa&w=1380")
+#card-7
+    @include mixins.bg-img("img.freepik.com/fotos-gratis/a-paisagem-bonita-do-sol-da-praia-com-um-barco_1112-212.jpg?t=st=1655689995~exp=1655690595~hmac=a0a2f5887980cb044f8c6677f789daa632f0bc9f6d61abfcac0eebe8ef6c9bbd&w=1380")
+#card-8
+     @include mixins.bg-img("img.freepik.com/fotos-gratis/conceito-de-sucesso-de-festa-de-celebracao-de-equipe-de-negocios_53876-47029.jpg?t=st=1655692385~exp=1655692985~hmac=6e971532b8b848ccd3fac0533d2d0f94f39d55f2bbfb63a5e2f690e412fb5215&w=1380")
+#card-9
+     @include mixins.bg-img("img.freepik.com/fotos-gratis/vista-de-cima-da-mesa-cheia-de-deliciosas-composicoes-de-alimentos_23-2149141352.jpg?t=st=1655692385~exp=1655692985~hmac=4018c59b86223a7307bec3023f9a9d517e9d010c6d9b1c49ea583c41c2fde403&w=1380")
+footer
+    text-align: center
+    padding-bottom: 2rem
+
+    span
+        font-weight: bold
+        color: variables.$secondary-color
