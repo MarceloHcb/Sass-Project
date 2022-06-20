@@ -6,8 +6,7 @@ const Galery = () =>{
     return(<>
     <Div>    
         <Header></Header>
-        <Main></Main>
- 
+        <Main></Main> 
     </Div>    
 
     </>)

@@ -9,7 +9,7 @@ export const Main = () => {
           <GalleryTitle>Animals</GalleryTitle>
 
           <GalleryBtn href="" className="gallery-btn">
-            Mais Fotos
+            Load More
           </GalleryBtn>
         </GalleryCard>
 
@@ -17,7 +17,7 @@ export const Main = () => {
           <GalleryTitle>Architecture</GalleryTitle>
 
           <GalleryBtn href="" className="gallery-btn">
-            Mais Fotos
+            Load More
           </GalleryBtn>
         </GalleryCard>
 
@@ -25,7 +25,7 @@ export const Main = () => {
           <GalleryTitle>Cities</GalleryTitle>
 
           <GalleryBtn href="" className="gallery-btn">
-            Mais Fotos
+            Load More
           </GalleryBtn>
         </GalleryCard>
 
@@ -33,7 +33,7 @@ export const Main = () => {
           <GalleryTitle>Decorations</GalleryTitle>
 
           <GalleryBtn href="" className="gallery-btn">
-            Mais Fotos
+            Load More
           </GalleryBtn>
         </GalleryCard>
 
@@ -41,7 +41,7 @@ export const Main = () => {
           <GalleryTitle>Sports</GalleryTitle>
 
           <GalleryBtn href="" className="gallery-btn">
-            Mais Fotos
+            Load More
           </GalleryBtn>
         </GalleryCard>
 
@@ -49,7 +49,7 @@ export const Main = () => {
           <GalleryTitle>Nature</GalleryTitle>
 
           <GalleryBtn href="" className="gallery-btn">
-            Mais Fotos
+            Load More
           </GalleryBtn>
         </GalleryCard>
 
@@ -57,7 +57,7 @@ export const Main = () => {
           <GalleryTitle>Landscape</GalleryTitle>
 
           <GalleryBtn href="" className="gallery-btn">
-            Mais Fotos
+            Load More
           </GalleryBtn>
         </GalleryCard>
 
@@ -65,7 +65,7 @@ export const Main = () => {
           <GalleryTitle>People</GalleryTitle>
 
           <GalleryBtn href="" className="gallery-btn">
-            Mais Fotos
+            Load More
           </GalleryBtn>
         </GalleryCard>
 
@@ -73,7 +73,7 @@ export const Main = () => {
           <GalleryTitle>Meals</GalleryTitle>
 
           <GalleryBtn href="" className="gallery-btn">
-            Mais Fotos
+            Load More
           </GalleryBtn>
         </GalleryCard>
       </GalleryStyled>

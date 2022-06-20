@@ -10,16 +10,16 @@ export const Header = () =>{
             <a href="#" className="active">Home</a>
         </li>
         <li> 
-            <a href="#">Fotos</a>
+            <a href="#">Photos</a>
         </li>
         <li> 
-            <a href="#">Serviços</a>
+            <a href="#">Services</a>
         </li>
         <li> 
-            <a href="#">Sobre</a>
+            <a href="#">About</a>
         </li>
         <li> 
-            <a href="#">Contato</a>
+            <a href="#">Contact</a>
         </li>
         </Ul>
         </Nav>
